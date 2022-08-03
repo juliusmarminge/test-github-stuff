@@ -1,7 +1,7 @@
-name: Bug Report
+name: 🐞 Bug Report
 description: Create a bug report for the tRPC core
 title: "[BUG]: "
-labels: "unconfirmed bug"
+labels: ["❓ unconfirmed bug"]
 body:
   - type: markdown
     attributes:
@@ -9,7 +9,14 @@ body:
   - type: textarea
     attributes:
       label: Provide environment information
-      description: Please provide any information you deem applicable for reproduction of the encountered bug, e.g. versions of `Node` and `tRPC`, `browser` and `OS` etc.
+      description: Please provide any information you deem applicable for reproduction of the encountered bug.
+      placeholder: |
+        Node: 
+        tRPC: 
+        Typescript:
+
+        OS:
+        Browser:
     validations:
       required: true
   - type: textarea
@@ -28,6 +35,10 @@ body:
     attributes:
       label: To reproduce
       description: Describe how to reproduce your bug. Can be either code or a link to a reproduction repo, Stackblitz etc.
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: Add any other information related to the bug here.
   - type: checkboxes
     attributes:
       label: We love contributors in any shape or form. Would you be willing to implement a bugfix?
