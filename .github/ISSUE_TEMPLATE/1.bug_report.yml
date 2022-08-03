@@ -1,6 +1,6 @@
 name: 🐞 Bug Report
 description: Create a bug report for the tRPC core
-title: "[BUG]: "
+title: "bug: "
 labels: ["❓ unconfirmed bug"]
 body:
   - type: markdown
