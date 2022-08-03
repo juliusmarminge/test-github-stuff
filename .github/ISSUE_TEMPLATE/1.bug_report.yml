@@ -48,6 +48,7 @@ body:
       description: Add any other information related to the bug here.
   - type: checkboxes
     attributes:
-      label: 👨‍👧‍👦 We love contributors in any shape or form. Would you be willing to implement a bugfix?
+      label: 👨‍👧‍👦 Contributing
+      label: We love contributors in any shape or form. Would you be willing to implement a bugfix?
       options:
         - label: 🙋‍♂️ Yes, I'd be down to file a PR fixing this bug!
