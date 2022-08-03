@@ -9,14 +9,12 @@ body:
   - type: textarea
     attributes:
       label: Provide environment information
-      description: Please provide any information you deem applicable for reproduction of the encountered bug.
-      placeholder: |
-        Node: 
-        tRPC: 
-        Typescript:
+      description: |
+        Run this command in your project root and paste the results:
 
-        OS:
-        Browser:
+        ```terminal
+        npx envinfo --system --binaries --browsers --npmPackages "next,react,@trpc/server,@trpc/client,@trpc/react,@trpc/client,@trpc/next,react-query"
+        ```
     validations:
       required: true
   - type: textarea
@@ -35,6 +33,8 @@ body:
     attributes:
       label: To reproduce
       description: Describe how to reproduce your bug. Can be either code or a link to a reproduction repo, Stackblitz etc.
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Additional information
