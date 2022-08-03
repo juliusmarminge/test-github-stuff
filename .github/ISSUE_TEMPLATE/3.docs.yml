@@ -4,11 +4,11 @@ title: "docs: "
 labels: ["documentation"]
 body:
   - type: markdown
-  attributes:
-    value: |
-      The tRPC Documentation is far from perfect and needs improvements.
-      Do you see possible enhancements you'd like to share? Please file them here!
-      **Note:** For simple typos etc, please file a PR fixing this instead.
+    attributes:
+      value: |
+        The tRPC Documentation is far from perfect and needs improvements.
+        Do you see possible enhancements you'd like to share? Please file them here!
+        **Note:** For simple typos etc, please file a PR fixing this instead.
   - type: textarea
     attributes:
       label: Area of Improvement
