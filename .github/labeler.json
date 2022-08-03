@@ -9,7 +9,8 @@
     "created by: tRPC core": [
       { "type": "user", "pattern": "KATT" },
       { "type": "user", "pattern": "sachinraja" },
-      { "type": "user", "pattern": "jlalmes" }
+      { "type": "user", "pattern": "jlalmes" },
+      { "type": "user", "pattern": "juliusmarminge" }
     ]
   }
 }
