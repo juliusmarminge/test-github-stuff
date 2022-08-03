@@ -18,8 +18,8 @@ body:
         npx envinfo --system --binaries --browsers --npmPackages "next,react,@trpc/server,@trpc/client,@trpc/react,@trpc/client,@trpc/next,react-query"
         ```
       placeholder: |
-        ``` |
-        <Paste result here> |
+        ``` 
+        <Paste result here> 
         ```
 
     validations:
