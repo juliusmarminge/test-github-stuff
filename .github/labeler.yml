@@ -10,6 +10,3 @@
   - packages/next/**
 "area: @trpc/react":
   - packages/react/**
-"created by: core":
-  type: user
-  pattern: "juliusmarminge"
