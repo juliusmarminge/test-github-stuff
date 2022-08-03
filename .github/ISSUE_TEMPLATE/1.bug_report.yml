@@ -6,8 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-      Thanks for taking the time to file a bug report! Please fill out this form as completely as possible.
-      Note that the more precise you are, the quicker we will be able to investigate the bug.
+        Thanks for taking the time to file a bug report! Please fill out this form as completely as possible.
+        Note that the more precise you are, the quicker we will be able to investigate the bug.
   - type: textarea
     attributes:
       label: Provide environment information
