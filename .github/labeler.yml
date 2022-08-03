@@ -1,0 +1,16 @@
+
+    "area: examples": 
+    - examples/**
+    "area: www/docs": 
+    - www/**
+    "area: @trpc/server": 
+    - "packages/server/**
+    "area: @trpc/client": 
+    - packages/client/**
+    "area: @trpc/next": 
+    - packages/next/**
+    "area: @trpc/react":
+    - packages/react/**
+    "created by: core":
+      type: user
+      pattern: "juliusmarminge"
